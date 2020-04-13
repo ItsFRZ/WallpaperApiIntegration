@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="15dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="#BABABA"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image123"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="2dp"
+            android:id="@+id/likes"
+            android:hint="Likes"
+            android:textColor="#888382"
+
+            android:padding="2dp"
+            android:layout_height="wrap_content"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="2dp"
+            android:hint="Downloads"
+            android:textColor="#888382"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/downloads"
+            android:padding="2dp"
+            android:layout_height="wrap_content"></TextView>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
